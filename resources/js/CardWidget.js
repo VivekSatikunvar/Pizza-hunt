@@ -16,6 +16,7 @@ export class CardWidget {
         iconColor: '#fa755a'
         }
     }
+    
 
     constructor(stripe) {
         this.stripe = stripe

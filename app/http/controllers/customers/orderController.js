@@ -10,6 +10,7 @@ function orderController () {
                 return res.status(422).json({ message : 'All fields are required' });
             }
 
+            
             const order = new Order({
                 customerId: req.user._id,
                 items: req.session.cart.items,

@@ -28,6 +28,7 @@ export async function initStripe() {
     //     card.mount('#card-element')
     // }
 
+    
     const paymentType = document.querySelector('#paymentType');
     if(!paymentType) {
         return;

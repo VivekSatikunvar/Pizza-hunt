@@ -6,6 +6,7 @@ function authController() {
         return req.user.role === 'admin' ? '/admin/orders' : '/customer/orders'
     }
     
+    
     return {
         login(req, res) {
             res.render('auth/login')

@@ -12,6 +12,7 @@ Node version:
 
 Platform: 
   darwin x64
+  
 
 Trace: 
   Error: https://registry.yarnpkg.com/dotev: Not found
