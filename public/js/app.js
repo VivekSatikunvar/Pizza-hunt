@@ -148,7 +148,7 @@ var registerWrapper = function registerWrapper(stripe, startTime) {
 
   stripe._registerWrapper({
     name: 'stripe-js',
-    version: "1.10.0",
+    version: "1.19.1",
     startTime: startTime
   });
 };
@@ -27735,7 +27735,7 @@ function _initStripe() {
         switch (_context2.prev = _context2.next) {
           case 0:
             _context2.next = 2;
-            return Object(_stripe_stripe_js__WEBPACK_IMPORTED_MODULE_1__["loadStripe"])('pk_test_51Hf6vbDfWW6uHRy7b6Upoa4bWhGYmk2ElEN4AiFeqozzlccU6OpAoD9d1oIar3qg9i8ASiOs9ly4rFJQOTPM5MMk00GN7COA2N');
+            return Object(_stripe_stripe_js__WEBPACK_IMPORTED_MODULE_1__["loadStripe"])('pk_test_51JiyR1SJPaVHlIO4eplQl0nJzm3YTV2aoXpHTMMytXHcyoawdwsRXiTW1NQ44h8mKbwTiowKvmEKAA5su9qkeGB40090YDrmIq');
 
           case 2:
             stripe = _context2.sent;
@@ -27875,8 +27875,8 @@ function _initStripe() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\vivek\Desktop\New folder\projects\github repo\Pizza-hunt\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\vivek\Desktop\New folder\projects\github repo\Pizza-hunt\resources\scss\app.scss */"./resources/scss/app.scss");
+__webpack_require__(/*! C:\Users\vivek\Desktop\New folder\projects\Pizza-hunt\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\vivek\Desktop\New folder\projects\Pizza-hunt\resources\scss\app.scss */"./resources/scss/app.scss");
 
 
 /***/ })
